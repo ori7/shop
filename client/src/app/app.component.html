@@ -1,13 +1,14 @@
-<app-header></app-header>
-
+<header class="container">
+    <app-header></app-header>
+</header>
+<br>
 <div class="container">
     <div class='row'>
-        <div class='col-3 border border-primary'>
+        <aside class='col-3 border border-primary'>
             <app-cart></app-cart>
-        </div>
-
-        <div class='col-9'>
+        </aside>
+        <main class='col-9'>
             <router-outlet></router-outlet>
-        </div>
+        </main>
     </div>
 </div>
